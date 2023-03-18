@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      build_version:
+        options:
+          output: lib/version.dart
+      mobx_codegen|mobx_generator:
+        enabled: true
+        generate_for:
+          include:
+            - lib/stores/***.dart
