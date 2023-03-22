@@ -1,4 +1,4 @@
-# mobx_example
+# mobx_structure
 
 A new Flutter project.
 
